@@ -14,7 +14,7 @@
      */
     border-radius: 50%;
     max-width: 12vw;
-    
+    max-height: 12vh;
 }
 
 .left {
@@ -25,3 +25,18 @@
 .right {
     text-align: right;
 }
+
+.quote {
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+h2 {
+    text-decoration: underline;
+}
+/*Styles for the tool tip
+.rc-tooltip-inner  {
+    
+}
+*/

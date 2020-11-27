@@ -8,11 +8,16 @@ function App() {
   return (
       <main className="app">
         <section className="content-area">
-          <Profile picture={jcsmiley} alignment="left" />
-          <Profile picture={jcsmiley} alignment="right" />
-          <Profile picture={jcsmiley} alignment="left" />
-          <Profile picture={jcsmiley} alignment="right" />
-          <Profile picture={jcsmiley} alignment="left" />
+          <Profile  picture={jcsmiley} alignment="left"  name="JC Smiley" 
+                    motto="What don't kill you will make you Stronger" 
+                    aspirations="build mobile or web apps that will directly affect my community" 
+                    favorites="to eat, mainly pecan pie/cheese cake, and is an avid biker/hiker!" 
+                    animal="the raven. Would fly far and wide!" 
+          />
+          <Profile picture={jcsmiley} alignment="right" name="JC Smiley" />
+          <Profile picture={jcsmiley} alignment="left"  name="JC Smiley" />
+          <Profile picture={jcsmiley} alignment="right" name="JC Smiley" />
+          <Profile picture={jcsmiley} alignment="left"  name="JC Smiley" />
         </section>
         <section className="rocket-title-area  center-text">
           <h1>Launch Code <br /> Profiles</h1>
