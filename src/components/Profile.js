@@ -5,13 +5,14 @@ import 'rc-tooltip/assets/bootstrap_white.css'
 const Profile = ({name, picture, alignment, aspirations, motto, favorites, animal}) => {
     return(
         <main className={`container ${alignment}`}>            
-            <Tooltip placement="right" 
-                    trigger={['hover', 'click']} 
+            <Tooltip placement={alignment==="left"?"right":"left"} 
+                    trigger={['hover', 'click','focus']} 
                     overlay={<Content name={name} 
                     aspirations={aspirations} 
                     motto={motto} 
                     favorites={favorites} 
                     animal={animal} 
+                    animation="zoom"
             />} 
             
             className="test" >
@@ -26,9 +27,9 @@ const Content = ({name, aspirations, motto, favorites, animal}) => {
     return(
         <main className="content-container">
             <h2>{name}</h2>
-            <p>An aspiring developer who want to {aspirations}. <br />
+            <p>An aspiring developer who wants to {aspirations}. <br />
             Loves {favorites}. <br />
-            Spirit animal is the {animal}. <br />
+            Spirit animal is the {animal} <br />
             </p>
             <quote className="quote">Family Motto: "{motto}"</quote>
         </main>
