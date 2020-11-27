@@ -2,9 +2,11 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Testing</h1>
-    </div>
+      <main className="app">
+        <section className="content-area">left-profile</section>
+        <section className="rocket-title-area">header</section>
+        <section className="content-area">right-profile</section>
+      </main>
   );
 }
 
