@@ -6,16 +6,20 @@
 
 
 .image-style {
+    /*Possible un-needed
     height: 100%;
     width: 100%;
-    border-radius: 50%;
     max-height: 8vh;
-    max-width: 8vw;
+    max-width: 8vw; For bigger views for 787 and higher
+     */
+    border-radius: 50%;
+    max-width: 12vw;
+    
 }
 
 .left {
     text-align: left;
-    padding-left: 5vw;  
+    padding-left: 2vw;  
 }
 
 .right {
