@@ -8,11 +8,11 @@ function App() {
   return (
       <main className="app">
         <section className="content-area">
-          <Profile picture={jcsmiley} />
-          <Profile picture={jcsmiley} />
-          <Profile picture={jcsmiley} />
-          <Profile picture={jcsmiley} />
-          <Profile picture={jcsmiley} />
+          <Profile picture={jcsmiley} alignment="left" />
+          <Profile picture={jcsmiley} alignment="right" />
+          <Profile picture={jcsmiley} alignment="left" />
+          <Profile picture={jcsmiley} alignment="right" />
+          <Profile picture={jcsmiley} alignment="left" />
         </section>
         <section className="rocket-title-area  center-text">
           <h1>Launch Code <br /> Profiles</h1>

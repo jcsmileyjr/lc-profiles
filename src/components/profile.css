@@ -1,6 +1,7 @@
 
 .container {
-    flex: 1;    
+    flex: 1;  
+    
 }
 
 
@@ -10,4 +11,13 @@
     border-radius: 50%;
     max-height: 8vh;
     max-width: 8vw;
+}
+
+.left {
+    text-align: left;
+    padding-left: 5vw;  
+}
+
+.right {
+    text-align: right;
 }
