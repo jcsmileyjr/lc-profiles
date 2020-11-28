@@ -26,12 +26,12 @@
   text-align: center;
 }
 
-h1 {
+h1, p {
   color: white;
   font-weight: bolder;
 }
 
 .rocket-image-style {
-  height: 80vh;
+  height: 70vh;
   max-width: 40vw;
 }
