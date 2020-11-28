@@ -21,9 +21,9 @@ function App() {
                     animal="the FireFly. Sort of a free spirit!" 
           />
           <Profile  picture="https://ca.slack-edge.com/T01BBKXJPM3-U01BRA1KK4K-a62129b3fffb-512" alignment="left"  name="Austin King" 
-                    motto="Ready or not, Here I come" 
-                    aspirations="to build the next FaceBook." 
-                    favorites="dance to disco music, ride my monster truck, and eat mediterranean food!" 
+                    motto="Better to have it and not need it, than to need it an not have it" 
+                    aspirations="to be a full stack developer. I enjoy the front and back end stuff" 
+                    favorites="make music, drawing, and to create media" 
                     animal="the Eagle. Watch me soar into the future!" 
           />
           <Profile  picture="https://ca.slack-edge.com/T01BBKXJPM3-U01CAG0E96V-efb2aa836f24-512" alignment="right"  name="Bacari Hersey" 
