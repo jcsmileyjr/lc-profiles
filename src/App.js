@@ -60,7 +60,7 @@ function App() {
         <section className="rocket-title-area  center-text">
           <h1>Launch Code <br /> Profiles</h1>
           <img src={rocket} alt="white rocket ship" className="rocket-image-style" />
-          <p className="countdown"><span id="countdown-title">Countdown to Launch: </span><br /> {timer.minutes} min, {timer.hours} hrs, and {timer.days} days</p>
+          <p className="countdown"><span id="countdown-title">Countdown to Launch: </span><br /> {timer.days} days, {timer.hours} hrs, and {timer.minutes} min </p>
         </section>
         <section className="content-area">
         <Profile  picture="https://ca.slack-edge.com/T01BBKXJPM3-U01CQBTGXGQ-c3783c4fce25-512" alignment="left"  name="Kane Agbekoh" 
