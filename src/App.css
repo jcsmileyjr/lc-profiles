@@ -32,6 +32,16 @@ h1 {
 }
 
 .rocket-image-style {
-  height: 80vh;
+  height: 70vh;
   max-width: 40vw;
+}
+
+.countdown {
+  position: absolute;
+  width: 45%;
+  color: white;
+}
+
+#countdown-title {
+  font-weight: bold;
 }
