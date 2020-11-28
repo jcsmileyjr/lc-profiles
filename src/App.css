@@ -19,7 +19,6 @@
 
 .rocket-tile-area {
   flex: 1;
-
 }
 
 .center-text {
@@ -37,10 +36,9 @@ h1 {
 }
 
 .countdown {
-  position: absolute;
-  width: 45%;
   color: white;
 }
+
 
 #countdown-title {
   font-weight: bold;
