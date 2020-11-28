@@ -1,21 +1,25 @@
 import {useState, useEffect} from 'react';
 import './App.css';
 import rocket from './assets/lc-rocket.png';
+import rocketCloud from './assets/rocket-cloud.PNG'
 
 import Profile from './components/Profile';
 import countdown from 'countdown';
+
 function App() {
-
-  useEffect(() => { setInterval(updateTimer,1000)}, []);
-
   const [timer, setTimer] = useState({});
+  const [showRocketCloud, updateRocketCloud] = useState(false);
 
-  const updateTimer = () => {
+  useEffect(() => { 
+    const updateTimer = () => {
     const startDate = null
     const endDate = new Date("12/21/2020")
     const time = countdown(startDate,endDate)
     setTimer(time);
-  }
+    updateRocketCloud(!showRocketCloud)
+  }  
+    setInterval(updateTimer,3000)
+  }, [showRocketCloud]);
 
   return (
       <main className="app">
@@ -58,9 +62,12 @@ function App() {
           />                                          
         </section>
         <section className="rocket-title-area  center-text">
-          <h1>Launch Code <br /> Profiles</h1>
-          <img src={rocket} alt="white rocket ship" className="rocket-image-style" />
+          <h1>Launch Code <br /> Profiles</h1>          
           <p className="countdown"><span id="countdown-title">Countdown to Launch: </span><br /> {timer.days} days, {timer.hours} hrs, and {timer.minutes} min </p>
+          <img src={rocket} alt="white rocket ship" className="rocket-image-style" />
+          <article>
+            <img src={rocketCloud} className={showRocketCloud?"blastOff":"rocket-cloud-style"} alt="billowing white clouds" />
+          </article>          
         </section>
         <section className="content-area">
         <Profile  picture="https://ca.slack-edge.com/T01BBKXJPM3-U01CQBTGXGQ-c3783c4fce25-512" alignment="left"  name="Kane Agbekoh" 

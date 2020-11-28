@@ -19,6 +19,7 @@
 
 .rocket-tile-area {
   flex: 1;
+
 }
 
 .center-text {
@@ -42,4 +43,64 @@ h1 {
 
 #countdown-title {
   font-weight: bold;
+}
+
+.blastOff {
+  display: none;
+  
+}
+
+.rocket-cloud-section {
+  display: flex;
+  align-content: center;
+}
+
+.rocket-cloud-style {
+  height: 6.5vh;
+  width: 23vw;
+}
+
+/*x-small screen*/
+@media only screen and (max-width: 365px) {
+  .rocket-cloud-style {
+    height: 3.5vh;
+  }
+}
+
+/*xx-small screen*/
+@media only screen and (max-width: 330px) {
+  .rocket-cloud-style {
+    max-height: 0vh;
+  }
+}
+
+/*medium screens*/
+@media only screen and (min-width: 767px) {
+  .rocket-cloud-style {
+    height: 13vh;
+  }
+}
+
+/*large screens*/
+@media only screen and (min-width: 900px) {
+  .rocket-cloud-style {
+    height: 12vh;
+    width: 22vw;
+  }
+}
+
+/*x-large screens*/
+@media only screen and (min-width: 1550px) {
+  .rocket-cloud-style {
+    height: 12vh;
+    width: 18vw;
+  }
+}
+
+/*x-large screens*/
+@media only screen and (min-width: 1920px) {
+  .rocket-cloud-style {
+    height: 12vh;
+    width: 11vw;
+  }
 }
