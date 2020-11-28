@@ -26,7 +26,7 @@
   text-align: center;
 }
 
-h1, p {
+h1 {
   color: white;
   font-weight: bolder;
 }
@@ -34,4 +34,14 @@ h1, p {
 .rocket-image-style {
   height: 70vh;
   max-width: 40vw;
+}
+
+.countdown {
+  position: absolute;
+  width: 45%;
+  color: white;
+}
+
+#countdown-title {
+  font-weight: bold;
 }
