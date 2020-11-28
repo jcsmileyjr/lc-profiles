@@ -31,7 +31,7 @@ const Content = ({name, aspirations, motto, favorites, animal}) => {
             Loves {favorites}. <br />
             Spirit animal is the {animal} <br />
             </p>
-            <quote className="quote">Family Motto: "{motto}"</quote>
+            <p className="quote">Family Motto: "{motto}"</p>
         </main>
     );
 }
