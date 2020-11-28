@@ -1,6 +1,6 @@
 import './App.css';
 import rocket from './assets/lc-rocket.png';
-import jcsmiley from './assets/jcsmiley.jpg';
+//import jcsmiley from './assets/jcsmiley.jpg';
 
 import Profile from './components/Profile';
 
